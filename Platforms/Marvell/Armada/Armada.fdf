@@ -213,6 +213,11 @@ FvNameGuid         = 5eda4200-2c5f-43cb-9da3-0baf74b1b30c
 !endif
 !endif
 
+  #
+  # X86 Emulator Support
+  #
+  INF X86EmulatorPkg/X86Emulator.inf
+
 # PEI phase firmware volume
 [FV.FVMAIN_COMPACT]
 FvAlignment        = 8

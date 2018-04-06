@@ -529,6 +529,11 @@
   MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf
   OpenPlatformPkg/Platforms/Marvell/Armada/Drivers/SmbiosPlatformDxe/SmbiosPlatformDxe.inf
 
+  #
+  # X86 Emulator Support
+  #
+  X86EmulatorPkg/X86Emulator.inf
+
 [Components.AARCH64]
   #
   # Generic ACPI modules
